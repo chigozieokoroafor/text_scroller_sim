@@ -3,7 +3,8 @@ import sys
 
 def main():
     s = Scroller("""abcde""")
-    print(s._get_corr_map_())
+    # while True:
+    print(s.scroll(0.1))
     # print(s.create_platform(), end="\r")
     # print(s.create_platform(), end="\r")
     # sys.stdout.write(s.create_platform())
