@@ -109,6 +109,7 @@ class Scroller:
         while True:
             # print(columns)
             print(self.platform, end="\r")
+            print("\033c", end='')
             self.platform.pop(columns[0])
             columns.drop(columns[0])
             time.sleep(speed)
